@@ -1,0 +1,15 @@
+my_dict = {"Roman": 2012, "Efim": 1999, "Renata": 2005}
+print("Годы летят:", my_dict)
+print("Ефим:", my_dict['Efim'])
+print("Этого объекта нет, но будет", my_dict.get("Sara", 'без ошибки'))
+my_dict.update({'Saha': 2004, "Dreyk": 1993})
+print("Update:", my_dict)
+print("Здесь был Роман:", my_dict.pop("Roman"))
+print("Одного убрали", my_dict)
+print("-----------------------")
+my_set = {1, 2, 5, 2, 4, 4, 5, "word", "word"}
+print("Set:", my_set)
+my_set.update({9, "number"})
+print("Mod'd set:", my_set)
+my_set.discard('word')
+print("After discard:", my_set)
