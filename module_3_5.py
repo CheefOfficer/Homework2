@@ -10,5 +10,4 @@ result = get_multiplied_digits(40203)
 print(result)
 result2 = get_multiplied_digits(4020301)
 print(result2)
-result2 = get_multiplied_digits(40231)
-print(result2)
+
