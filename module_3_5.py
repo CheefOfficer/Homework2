@@ -1,4 +1,5 @@
 """""
+# Я попробовал сделать доп функцию, но не разобрался как правильно ее интегрировать
 def check_zero_T(number):
     str_number = str(number)
     s = 0
@@ -26,7 +27,7 @@ def get_multiplied_digits(number):
         return first * get_multiplied_digits(int(str_number[1::]))
     else:
         return int(str_number)
-print("--------------------------------------------")
+print("--------------------------------------------------------")
 result = get_multiplied_digits(40203)
 print(result)
 result2 = get_multiplied_digits(402030)
