@@ -11,7 +11,6 @@ def check_zero_T(number):
         return str_number
 """
 
-
 def get_multiplied_digits(number):
     str_number = str(number)
     s = 0
